@@ -25,8 +25,8 @@ const CERTS = {
       title: "GO-Green Technologies",
       org: "Idealab",
       date: "2025",
-      img: "/certs/cert3.png",
-      link: "/certs/cert3.png",
+      img: "/certs/cert2.png",
+      link: "/certs/cert2.png",
     },
     {
       title: "ARMIET",
