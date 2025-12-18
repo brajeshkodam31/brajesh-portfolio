@@ -106,10 +106,10 @@ export default function Resume() {
             <li>
               <strong>B.E. in Computer Engineering</strong> — ARMIET
               (Mumbai University), Pursuing <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <span style={{ color: "#aaa" }}>GPA:#</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — Mahadev Baburao Chaughule College</strong> (Gujarat
+              <strong>12th Board — Mahadev Baburao Chaughule College</strong> (Maharashtra
               Board, 2021) <br />
               <span style={{ color: "#aaa" }}>Percentage: 50%</span>
             </li>
