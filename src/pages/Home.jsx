@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { TypeAnimation } from "react-type-animation";
 import "../CSS/Home.css"
 import '../index.css' 
 
@@ -78,15 +79,22 @@ export default function Home() {
           className="home-info"
         >
           <h1 className="home-title">
-            Hi, I’m{' '}
-            <motion.span
-              animate={{ backgroundPositionX: ['0%', '200%'] }}
-              transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
-              className="home-name"
-            >
-              Brajesh Kodam
-            </motion.span>
-          </h1>
+  Hi, I’m{" "}
+  <span className="home-name">
+    <TypeAnimation
+      sequence={[
+        "Brajesh Kodam",
+        2000,
+        "Web Developer",
+        1500,
+        "Content Creator",
+        1500,
+      ]}
+      speed={50}
+      repeat={Infinity}
+    />
+  </span>
+</h1>
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
